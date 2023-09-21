@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.screen {
+    position: fixed;
+    width: 820px;
+    height: 1180px;
+    background-color: #39b2b7;
+}
+
+
+/*Buttons*/
+.mobile_btn, .card_btn {
+    width: 310px;
+    height: 322px;
+    background-color: white;
+    border-color: white;
+    border-radius: 10%;
+    box-shadow: 0 2px 8px 0;
+    padding-bottom: 10%;    
+}
+
+.action_btn {
+    width: 678px;
+    height: 101px;
+    border-radius: 45px;
+    border-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0 2px 2px 0;
+}
+
+
+/*Images*/
+.mobile_img {
+    width: 225px;
+    height: auto;
+}
+
+.card_img {
+    width: 246px;
+    height: auto;
+}
+
+
+/*Divs Position*/
+.mobilepay_div {
+    margin-left: 82px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.card_div {
+    margin-left: 441px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.action_div {
+    left: 80px;
+    margin-top: 733px;
+    position: absolute;
+}
+
+
+/*Remove underline*/
+a {
+    text-decoration: none;
+}
+
+/*Font*/
+h1 {
+    color: black;
+    font-family: greekfont;
+    font-size: 2.5rem;
+    text-shadow: 1px 2px grey;
+}
+
+@font-face {
+    font-family: "greekfont";
+    src: url(/images/DalekPinpointBold.ttf);
+}
