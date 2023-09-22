@@ -1,31 +1,30 @@
 /* For connor's css :)  */
 
+/* This is where our meal selection options are */
 #foodItems{
     display: flex;
     flex-wrap: wrap;
-
-   /*
-   transform: translate(-50%, -50%); */
+    margin-left: 30%;
+    justify-content: space-even
 }
 
-.foodCards{
+.foodCards{ 
     background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
-        float: right;
-}
+}   
 
 .foodCards:hover{
     box-shadow: 0 20px 16px 0 rgba(0,0,0,0.2);
 }
 
 .cardImage{
-    height: 200px;
-    width: 200px;
+    height: 50%;
+    width: 100%;
 }
-    article{
+    article.foodCards{
         /*width:333px*/
-        width: 300px;
+        width: 30%;
         height: 400px;
         padding: 10px;
         padding-top: 4px;
@@ -36,8 +35,38 @@
         */
 
         margin-bottom: 10px;
-        margin-right: 10px;
+        margin-right: 16%;
         border-radius: 30px;
+    }
+
+    /* This bit is for the side menu with choices of meal category */
+
+    #sideMenu{
+        display: block;
+        position: fixed;
+        background-color: white;
+        height: 100%;
+        width: 22%;
+        float: left;
+    }
+
+    .menuBox{
+        height: 200px;
+        margin-bottom: 5%;
+        border-bottom: 4px solid orange;
+    }
+    .menuImage
+    {
+        height: 80%;
+        width: 100%;
+    }
+
+    .wrapper{ 
+        width: 100%;
+        height: 100%;
+      /*background: aqua; */
+        margin: auto;
+        padding: 10px;
     }
 
 
