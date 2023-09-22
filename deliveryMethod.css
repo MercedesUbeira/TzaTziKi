@@ -14,13 +14,13 @@
 
 /*Logo*/
 .logo {
-    width: 272px;
-    height: auto    
+    width: 350px;
+    height: auto;
 }
 
 .logodiv {
     position: absolute;
-    margin-left: 281px;
+    margin-left: 250px;
     margin-top: 113px;  
 }
 
