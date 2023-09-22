@@ -18,13 +18,20 @@ article
 img 
 {
     border-radius: 20px;
+    
 }
 
 .foodCards {
-    display: flex; /* Use flexbox to arrange content horizontally */
+    display: flex; 
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    
+}
+
+a {
+    color: #000000; 
+    text-decoration: none; 
 }
 
 .resolution 
@@ -44,14 +51,6 @@ img
  text-align: center;
  font-family:'greek';
 }
-
-.in-cart 
-{
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 .buttons 
 {
@@ -73,8 +72,8 @@ img
     height: 50px;
     background-color: white;
     border-color: rgb(0, 0, 0);
-    border-radius: 35%;
-    box-shadow: 0 3px 4px 0;
+    border-radius: 45px;
+    box-shadow: 0 1px 1cap 0;
     padding-bottom: 10%;
     text-align: center;
     line-height: inherit;
@@ -86,30 +85,37 @@ img
     height: 50px;
     background-color: white;
     border-color: rgb(0, 0, 0);
-    border-radius: 35%;
-    box-shadow: 0 3px 4px 0;
+    border-radius: 45px;
+    box-shadow: 0 1px 1px 0;
     padding-bottom: 10%;
 }
 
 .left, .right 
 {
-    /* Your existing styles here */
-
-    /* Add the foll owing to center text */
+    
     margin: 165px;
     padding: 1px;
-    justify-content: center;
     align-items: center;
     font-size: 30px;
-    justify-content: center;
     text-align: center;
-    line-height: 50px;
+}
+.foodCards hr {
+    display: block; 
+    width: 100%; 
+    margin: 10px 0; 
+    border: none; 
+    border-top: 1px solid #5b5555;
+}
+#headline
+{
+    padding-left:25px;
+}
+p
+{
+    padding-left:20px;
 }
 
 
-
-@font-face 
-{
-    font-family:'greek';
-    src: url('../TzaTziKi/DalekPinpointBold.ttf') format('ttf');
-  }
+@font-face {
+    font-family: "greekfont";
+    src: url(/images/DalekPinpointBold.ttf); }
