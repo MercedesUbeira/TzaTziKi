@@ -4,7 +4,9 @@ body{
 }
 h1 {
     color: white;
-    text-align: center 
+    text-align: center;
+    font-size: 4em;
+     
 }
 
 #container{
@@ -24,8 +26,7 @@ h1 {
         align-items: center;
         height: 400px;
         width: 300px;
-
-    
+        border-radius: 30px;
 }
 
 .foodCards:hover{
@@ -56,12 +57,28 @@ h3 {
     src: url(/images/DalekPinpointBold.ttf);
 }
 
-h2, p { 
+h2 { 
     text-align: left;
+    margin-left: 20px;
+}
+
+p {
+    text-align: left;
+    font-size: 1.3em;
+    margin-left: 20px;
+    margin-bottom: 1px;
 }
 
 footer {
     display: flex;
     justify-content: center;
     column-gap: 20px;
+}
+
+.cardImage {
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-right: 70px;
+    width: 150px;
+    height: auto;
 }
