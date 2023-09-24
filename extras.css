@@ -82,3 +82,29 @@ footer {
     width: 150px;
     height: auto;
 }
+
+.button {
+    background-color: #39b2b7;
+    border-radius: 45px;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-style: hidden;
+    border-width: 3px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.button1 {
+    background-color: #39b2b7;
+    border-radius: 45px;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-style: hidden;
+    border-width: 3px;
+    font-size: 1.5em;
+    color: white;
+}
