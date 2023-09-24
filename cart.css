@@ -82,6 +82,7 @@ a {
     align-items: center;
     font-size: 30px;
     text-align: center;
+    font-family:'greekfont';
 }
 .foodCards hr {
     display: block; 
