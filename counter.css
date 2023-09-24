@@ -1,46 +1,46 @@
 
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-.container{
-    height: 100vh;
-    width: 100vw;
+.counter{
+    width: 20%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+#plusbutton, #minusbutton{
+    height: 25px;
+    width: 25px;
+    
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #39B2BF;
+    border: 1px solid #000000;
+    color: white;
+    margin: 0px;
+}
+#minusbutton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
     justify-content: center;
     align-items: center;
+
+
 }
-.container h1{
-    margin: 30px;
+
+#plusbutton {
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
 }
-.counter{
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-#increment-btn, #decrement-btn, #reset{
-    height: 50px;
-    width: 120px;
-    padding: 0 40px;
-    border-radius: 10px;
-    font-size: 40px;
-    background-color: #2e8d46;
-    border: 2px solid #2e8d46;
-    color: white;
-    margin: 20px;
-}
-#reset{
+
+
+#counternumber{
+    height: 25px;
+    min-width: 40px;
+    background-color: #24252a;
+    color:white;
     font-size: 20px;
-}
-#counter-value{
-    height: 50px;
-    min-width: 120px;
-    border-radius: 10px;
-    background-color: rgba(255, 0, 0, 0.187);
-    margin-top: 20px;
-    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
