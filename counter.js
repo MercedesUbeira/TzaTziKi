@@ -1,17 +1,17 @@
 let counter = 0;
 
-const counternumber = document.getElementById('counternumber');
-const plusbutton = document.getElementById('plusbutton');
-const minusbutton = document.getElementById('minusbutton');
+const counternumber = document.querySelector(".counternumber");
+const plusbutton = document.querySelector(".plusbutton");
+const minusbutton = document.querySelector(".minusbutton");
 
 // To increment the value of counter
-plusbutton.addEventListener('click', () => {
-	counter++;
-	counternumber.innerHTML = counter;
+plusbutton.addEventListener("click", () => {
+  counter++;
+  counternumber.innerHTML = counter;
 });
 
 // To decrement the value of counter
-minusbutton.addEventListener('click', () => {
-	counter--;
-	counternumber.innerHTML = counter;
+minusbutton.addEventListener("click", () => {
+  counter--;
+  counternumber.innerHTML = counter;
 });
