@@ -69,7 +69,7 @@
 
     .menuBox{
         height: 25%;
-        margin-bottom: 5%;
+        margin-bottom: 0%;
         /* Pure white or have division between each items?
         border-bottom: 6px solid orange; */
         background-color: white;
@@ -78,9 +78,10 @@
     }
     .menuImage
     {
-        height: 80%;
+        height: 80% ;
         width: 100%;
     }
+    /* end*/
 
     .pageButton{
         width: 360px;
@@ -157,6 +158,7 @@ body{
 
 /* fonts */
 h1 {
+    margin-top: 0%;
     color: rgb(0, 0, 0);
     font-size: 25px;
 }
