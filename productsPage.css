@@ -161,12 +161,13 @@ h1 {
     margin-top: 0%;
     color: rgb(0, 0, 0);
     font-size: 25px;
-    font-family: 'greekfont';
+    font-family: 'greekfont';;
 }
 
 h2 { 
     text-align: left;
     margin-left: 20px;
+    font-family: "description";
 }
 
 h3{
@@ -178,12 +179,15 @@ h3{
 @font-face {
     font-family: "greekfont";
     src: url(Images/DalekPinpointBold.ttf);
+    font-family: "description";
+    src: url(/Raleway-VariableFont_wght.ttf);
 }
 p {
     text-align: left;
     font-size: 1.3em;
     margin-left: 20px;
     margin-bottom: 1px;
+    font-family: "description";
 }   
 
 .screen {
