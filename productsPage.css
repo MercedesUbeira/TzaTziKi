@@ -184,7 +184,7 @@ h3{
 }
 @font-face {
     font-family: "greekfont";
-    src: url(Images/DalekPinpointBold.ttf);
+    src: url(/DalekPinpointBold.ttf);
     font-family: "description";
     src: url(/Raleway-VariableFont_wght.ttf);
 }
