@@ -52,11 +52,13 @@
         background-color: white;
         height: 100%;
         width: 22%;
-        float: left; */
+        float: left;
+        This has been commented out to see why something wasn't working
+        */
 
         /* New version of the sidemenu, added scroll */
         height: 100%;
-        width: 10%;
+        width: 160px;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -191,8 +193,8 @@ p {
 }   
 /* end of fonts*/
 
-.screen {
-    width: 820px;
-    height: 1180px;
-    background-color: #39b2b7;
-}
+    .screen {
+        width: 820px;
+        height: 1180px;
+        background-color: #39b2b7;
+    }
