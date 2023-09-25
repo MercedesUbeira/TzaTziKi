@@ -1,6 +1,7 @@
 body
 {
     background-color: #39B2BF;
+    
 }
 article
 {
@@ -44,12 +45,12 @@ a {
  /* TOPSIDE CART */
 #cart   
 {
- font-size: 65px;
+ font-size: 85px;
  font-weight: bold;
  color: white;
  justify-content: center;
  text-align: center;
- font-family:'greek';
+ font-family:'greekfont';
 }
 
 .buttons 
@@ -66,38 +67,22 @@ a {
     height: 150px;
     width: auto;
 }
-.left
-{
-    width: 175px;
-    height: 50px;
-    background-color: white;
-    border-color: rgb(0, 0, 0);
-    border-radius: 45px;
-    box-shadow: 0 1px 1cap 0;
-    padding-bottom: 10%;
-    text-align: center;
-    line-height: inherit;
-}
 
-.right
+
+.left, .right 
 {
-    width: 175px;
-    height: 50px;
+    margin: 125px;
+    width: 195px;
+    height: 80px;
     background-color: white;
     border-color: rgb(0, 0, 0);
     border-radius: 45px;
     box-shadow: 0 1px 1px 0;
-    padding-bottom: 10%;
-}
-
-.left, .right 
-{
     
-    margin: 165px;
-    padding: 1px;
     align-items: center;
     font-size: 30px;
     text-align: center;
+    font-family:'greekfont';
 }
 .foodCards hr {
     display: block; 
@@ -108,11 +93,61 @@ a {
 }
 #headline
 {
+
     padding-left:25px;
 }
 p
 {
     padding-left:20px;
+}
+
+/* CSS FOR THE COUNTER BUTTON */
+.counter{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    
+}
+.plusbutton, .minusbutton{
+    height: 25px;
+    width: 25px;
+    
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #39B2BF;
+    border: 1px solid #000000;
+    color: white;
+}
+.minusbutton {
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.plusbutton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.counternumber{
+    height: 25px;
+    min-width: 40px;
+    background-color: #39B2BF;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
