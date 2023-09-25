@@ -29,6 +29,9 @@ img
     transition: 0.3s;
     
 }
+.text {
+    padding-right: 20px;
+}
 
 a {
     color: #000000; 
