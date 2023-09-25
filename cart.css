@@ -1,6 +1,7 @@
 body
 {
     background-color: #39B2BF;
+    font-family: 'Raleway', sans-serif; 
     
 }
 article
@@ -159,4 +160,4 @@ p
     font-family: "greekfont";
     src: url(/images/DalekPinpointBold.ttf); }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@400;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@400;600&display=swap');
