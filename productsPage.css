@@ -1,3 +1,29 @@
+body{
+    background-color: #39b2bf;
+}
+
+/* fonts */
+h1 {
+    margin-top: 0%;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: "greekfont";
+}
+
+h2 { 
+    text-align: left;
+    margin-left: 20px;
+    font-family: "description";
+}
+
+h3{
+    color: black;
+    font-family: "greekfont";
+    font-size: 2em;
+    text-shadow: 1px 2px grey;
+    text-decoration: none;
+}
+
 /* This is where our meal selection options are */
 #foodItems{
     display: flex;
@@ -24,16 +50,16 @@
 
 .cardImage{
     border-radius: 30px;
-    margin-top: -1%;
-    height: 40%;
+    margin-top: 2%;
+    height: auto;
     width: 100%;
 }
     article.foodCards{
-        /*width:333px*/
         width: 40%;
         height: 400px;
         padding: 10px;
         padding-top: 4px;
+        margin-top: 21px;
         
         /* this is how to center something
         margin-left: auto;
@@ -64,36 +90,45 @@
         top: 0;
         left: 0;
         overflow-x: hidden;
-        padding-top: 20px;
+        
     }
 
     .menuBox{
-        height: 25%;
-        margin-bottom: 0%;
+        height: 15%;
         /* Pure white or have division between each items?
         border-bottom: 6px solid orange; */
         background-color: white;
         text-align: center;
-        padding-bottom: 10px;
+        padding-right: 3px;
+        padding-left: 3px;
+        padding-top: 2px;
+        
     }
     .menuImage
     {
-        height: 80% ;
+        height: auto ;
         width: 100%;
+        margin-top: 10px;
     }
+
     /* end*/
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .pageButton{
         width: 360px;
         height: 101px;
         border-radius: 45px;
         border-color: white;
-        padding-left: 100px;
-        padding-right: 100px;
         box-shadow: 0 2px 2px 0;
         align-items: center;
-        float:right;
-        transform: translate(-30%, +100%);
+        transform: translate(21%, 100%);
+        margin-bottom: 130px;
+       
+        
     }
 
     /* counter button*/
@@ -102,7 +137,7 @@
         display: flex;
         justify-content: center;
         margin-left: 10px;
-        margin-top: 20px;
+        margin-top: 5px;
         transform: translateY(+200%);
     }
 
@@ -157,31 +192,7 @@
     }
 
 
-body{
-    background-color: #39b2bf;
-}
 
-/* fonts */
-h1 {
-    margin-top: 0%;
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    font-family: "greekfont";
-}
-
-h2 { 
-    text-align: left;
-    margin-left: 20px;
-    font-family: "description";
-}
-
-h3{
-    color: black;
-    font-family: "greekfont";
-    font-size: 2em;
-    text-shadow: 1px 2px grey;
-    text-decoration: none;
-}
 @font-face {
     font-family: "greekfont";
     src: url(/DalekPinpointBold.ttf);
