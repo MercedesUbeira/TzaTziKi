@@ -10,9 +10,14 @@
 
 /* The individual food choices are placed instead of these */
 .foodCards{ 
-    background-color: white;
+        background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
+        float: right;
+        align-items: center;
+        height: 400px;
+        width: 300px;
+        border-radius: 30px;
 }   
 
 .foodCards:hover{
@@ -77,6 +82,66 @@
         width: 100%;
     }
 
+    .pageButton{
+        width: 360px;
+        height: 101px;
+        border-radius: 45px;
+        border-color: white;
+        padding-left: 100px;
+        padding-right: 100px;
+        box-shadow: 0 2px 2px 0;
+        align-items: center;
+        float:right;
+        transform: translate(-30%, +100%);
+    }
+
+    /* counter button*/
+     .counter{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        margin-top: 20px;
+        transform: translateY(+200%);
+    }
+
+    .plusbutton, .minusbutton{
+        height: 25px;
+        width: 25px;
+        border-radius: 10px;
+        font-size: 15px;
+        background-color: #39B2BF;
+        border: 1px solid #000000;
+        color: white;
+    }
+    .minusbutton {
+        border-top-left-radius: 10px; 
+        border-bottom-left-radius: 10px; 
+        border-top-right-radius: 0; 
+        border-bottom-right-radius: 0; 
+        text-align: center;
+        justify-content: center;
+        align-items: center;    
+    }
+    
+    .plusbutton {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .counternumber{
+        height: 25px;
+        width: 40px;
+        background-color: #39B2BF;
+        color: #ffffff;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* end of counter button*/
     .wrapper{ 
         width: 100%;
         height: 100%;
@@ -89,6 +154,34 @@
 body{
     background-color: #39b2bf;
 }
+
+/* fonts */
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+h2 { 
+    text-align: left;
+    margin-left: 20px;
+}
+
+h3{
+    color: black;
+    font-family: 'greekfont';
+    font-size: 2em;
+    text-shadow: 1px 2px grey;
+}
+@font-face {
+    font-family: "greekfont";
+    src: url(Images/DalekPinpointBold.ttf);
+}
+p {
+    text-align: left;
+    font-size: 1.3em;
+    margin-left: 20px;
+    margin-bottom: 1px;
+}   
 
 .screen {
     width: 820px;
