@@ -52,8 +52,8 @@ a {
 
 .cardImage{
     border-radius: 30px;
-    margin-top: 2%;
-    height: auto;
+    margin-top: none;
+    height: 170px;
     width: 100%;
 }
     article.foodCards{
