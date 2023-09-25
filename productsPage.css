@@ -68,8 +68,8 @@
     }
 
     .menuBox{
-        height: 20%;
-        margin-bottom: 0%;
+        height: 25%;
+        margin-bottom: 5%;
         /* Pure white or have division between each items?
         border-bottom: 6px solid orange; */
         background-color: white;

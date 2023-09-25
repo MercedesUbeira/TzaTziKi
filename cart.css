@@ -53,6 +53,8 @@ a {
  color: white;
  justify-content: center;
  text-align: center;
+ font-family: 'Raleway', sans-serif; 
+ 
 }
 
 .buttons 
@@ -156,3 +158,5 @@ p
 @font-face {
     font-family: "greekfont";
     src: url(/images/DalekPinpointBold.ttf); }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@400;600&display=swap');
