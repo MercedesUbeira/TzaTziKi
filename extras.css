@@ -6,8 +6,10 @@ h1 {
     color: white;
     text-align: center;
     font-size: 4em;
-     
+    font-family: 'Raleway', sans-serif; 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@400;600&display=swap');
 
 #container{
     display: flex;
