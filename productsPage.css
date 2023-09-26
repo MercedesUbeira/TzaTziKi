@@ -121,7 +121,7 @@ a {
     }
 
     .pageButton{
-        width: 360px;
+        width: 310px;
         height: 101px;
         border-radius: 45px;
         border-color: white;
@@ -129,7 +129,13 @@ a {
         align-items: center;
         transform: translate(21%, 100%);
         margin-bottom: 130px;
+        margin: 10px;
        
+        
+    }
+
+    #backbutton {
+        margin-left: 58px;
         
     }
 
