@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payment Method</title>
     <link rel="stylesheet" type="text/css" href="paymentMethod.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="screen">
+      <!--Option 1 - Mobile Pay-->
+      <div class="mobilepay_div">
+        <button class="mobile_btn">
+          <a href="/followTheInstructions.html"
+            ><img
+              class="mobile_img"
+              src="/images/mobile-pay-logo.png"
+              alt="mobilepayicon"
+          /></a>
+        </button>
+      </div>
 
-        <!--Option 1 - Mobile Pay-->
-        <div class="mobilepay_div">
-            <button class="mobile_btn"><a href="#"><img class="mobile_img" src="/images/mobile-pay-logo.png" alt="mobilepayicon"></a></button>
-        </div>
+      <!--Option 2 - Card-->
+      <div class="card_div">
+        <button class="card_btn">
+          <a href="/followTheInstructions.html"
+            ><img class="card_img" src="images/cards.png" alt="cardicon"
+          /></a>
+        </button>
+      </div>
 
-        
-        <!--Option 2 - Card-->
-        <div class="card_div">
-            <button class="card_btn"><a href="#"><img class="card_img" src="images/cards.png" alt="cardicon"></a></button>
-        </div>
-
-        <!--Call to Action Button-->
-        <div class="action_div">
-            <button class="action_btn"><a href="./followTheInstructions.html"><h1>PICK UP AND PAY</h1></a></button>
-        </div>
+      <!--Call to Action Button-->
+      <div class="action_div">
+        <button class="action_btn">
+          <a href="./orderSuccess.html"><h1>PICK UP AND PAY</h1></a>
+        </button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
