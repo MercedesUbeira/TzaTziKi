@@ -1,38 +1,43 @@
+/* Defined the colour variables */
 :root {
-    --background: #39b2b7;
-    --text: white;
+  --background: #39b2b7;
+  --text: white;
 }
+
 body {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: var(--background);
-    color: var(--text);
-    font-size: 30px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  font-size: 30px;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-@keyframes rollImage {
-    0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(10deg); 
-    }
-    100% {
-        transform: rotate(0deg);
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .tick-img {
     max-width: 80%;
     margin-top: 50px;
     margin-bottom: 50px;
-    animation: rollImage 1s infinite; 
+    animation: rollImage 1s infinite;
+  }
+  
+/* Implemented keytframes to add animation to the img */
+
+@keyframes rollImage {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
+
