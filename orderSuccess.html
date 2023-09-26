@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Success</title>
     <link rel="stylesheet" type="text/css" href="orderSuccess.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Order Confirmed!</h1>
-        <img src="/Images/successTic.png" alt="Tick" class="tick-img">
-        <h2 class="thank-you-text">Thank You!</h2>
+      <h1>Order Confirmed!</h1>
+      <img src="/Images/successTic.png" alt="Tick" class="tick-img" />
+      <h2 class="thank-you-text">Thank You!</h2>
     </div>
-</body>
+    <script>
+      setTimeout(function () {
+        window.location.href = "index.html"; // the timeframe is in miliseconds, hence the 5000
+      }, 12000);
+    </script>
+  </body>
 </html>
